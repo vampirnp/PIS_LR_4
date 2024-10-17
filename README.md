@@ -16,7 +16,7 @@ URL страницы: /DNS-Russia
 
 ```json
 {
-   "ProductInfo": {
+  "ProductInfo": {
     "product_name": "Проводные наушники HyperX Cloud II KHX-HSCP-RD красный",
     "article": "12h12322",
     "rating": "4.6",
@@ -26,40 +26,41 @@ URL страницы: /DNS-Russia
   "clientInfo": {
     "firstName": "Орлов",
     "lastName": "Александр",
-    "middleName": "Кириллович",
+    "middleName": "Кириллович"
   },
 
   "contactInfo": {
-    "email": "этонеинтересно@mail.ru",
+    "email": "example@mail.ru",
     "phone": "+7 777 777 02 03"
   },
 
-  "delivery of goods": {
-    "in the store": {
-      "included": true,
-    }
-    "delivery to the address": {
+  "deliveryOfGoods": {
+    "inStore": {
+      "included": true
+    },
+    "deliveryToAddress": {
       "included": false,
-      "address": г.Клин Ул.полевая д.45,
+      "address": "г.Клин Ул.полевая д.45",
       "price": 2000
     }
-  }
+  },
 
-  "Payment method":{
+  "paymentMethod": {
     "SBP": {
-        "included": false,
+      "included": false
     },
     "SBERPay": {
-        "included": false,
+      "included": false
     },
     "Card": {
-        "included": false,
+      "included": false
     },
-    "on the issue": {
-        "included": true,
+    "CashOnDelivery": {
+      "included": true
     }
   }
 }
+
 ```
 
 ## 4. Маппинг данных
@@ -89,14 +90,12 @@ URL страницы: /DNS-Russia
 | Радио-кнопка "доставка по адресу" | Radio button | - | Опция способа оплаты|
 | Стоимость доставки | Текст | delivery_of_goodsInfo.price | "2000 ₽" |
 | Поле "Адрес" | Input, обязательное | contactInfo.addres | Валидация формата addres |
- Заголовок "4 Способ оплаты" | Текст | - | Статический текст |
-| Переключатель Способ оплаты | Toggle | Payment_methodInfo.method | Выбор оплаты между СБП СберПэй картой и наличкой в магазине|
-| Радио-кнопка "Система быстрых платежей" | Radio button | - | Опция способа оплаты,по умолчанию выбрана если выбран способ доставка по адресу |
-| Радио-кнопка "Сберпэй" | Radio button | - | Опция способа оплаты|
-| Радио-кнопка "оплата Картой" | Radio button | - | Опция способа оплаты |
-| Радио-кнопка "оплата наличныйми" | Radio button | - | Опция способа оплаты, по умолчанию выбрана если выбран способ получения в магазине |
-| К оплате | Текст | price | Отображение итоговой стоимости |
-| Кнопка "Оплатить" | Button | - | При нажатии переход к оплате |
+|Заголовок "4 Способ оплаты"	|Текст	|-|	Статический текстм|
+|Переключатель Способ оплаты	|Toggle|	paymentMethod.method|	|Выбор оплаты между СБП СберПэй картой и наличкой в магазине|
+|Радио-кнопка "Система быстрых платежей"	|Radio button|	paymentMethod.SBP.included	|Опция способа оплаты, по умолчанию выбрана если выбран способ доставка по адресу|
+|Радио-кнопка "Сберпэй"	|Radio button	|paymentMethod.SBERPay.included	|Опция способа оплаты|
+|Радио-кнопка "оплата Картой"	|Radio button	|paymentMethod.Card.included	|Опция способа оплаты|
+|Радио-кнопка "оплата наличныйми"	|Radio button	|paymentMethod.CashOnDelivery.included	|Опция способа оплаты, по умолчанию выбрана если выбран способ получения в магазине|
 
 
 ### 4.2 Форма оплаты 
@@ -106,7 +105,7 @@ URL страницы: /DNS-Russia
 
 Условие отображения: После заполнения формы оформление заказа выбрав способ оплаты карта
 
-Описание элемента:
+Описание элементов:
 
 | Элемент | Тип элемента | Поле из JSON | Примечание |
 |---------|--------------|--------------|------------|
