@@ -67,7 +67,8 @@ URL страницы: /purchase-ticket
 
 ### 4.1 Форма внесения данных
 
-Скриншот элемента: ![Внесение данных](https://github.com/user-attachments/assets/d38441fe-5dd1-4c76-8456-86fed7ba9ad8)
+Скриншот элемента: 
+![Внесение данных](https://github.com/user-attachments/assets/d38441fe-5dd1-4c76-8456-86fed7ba9ad8)
 
 Условие отображения: Всегда
 
@@ -101,7 +102,8 @@ URL страницы: /purchase-ticket
 
 ### 4.2 Форма оплаты 
 
-Скриншот элемента: ![Оплата](https://github.com/user-attachments/assets/20b59c1e-d5d9-42b6-8299-810857a66228)
+Скриншот элемента: 
+![Оплата](https://github.com/user-attachments/assets/20b59c1e-d5d9-42b6-8299-810857a66228)
 
 Условие отображения: После заполнения формы оформление заказа выбрав способ оплаты карта
 
