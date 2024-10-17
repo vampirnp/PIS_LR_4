@@ -1,8 +1,8 @@
 # ТЗ на страницу добавление в корзину и оплата товара front-end
 
 ## 1. Макеты страницы/функции/фичи
-![Корзина]![Снимок экрана 2024-10-17 140813](https://github.com/user-attachments/assets/d38441fe-5dd1-4c76-8456-86fed7ba9ad8)
-![Оплата]![Снимок экрана 2024-10-17 141831](https://github.com/user-attachments/assets/20b59c1e-d5d9-42b6-8299-810857a66228)
+![Внесение данных](https://github.com/user-attachments/assets/d38441fe-5dd1-4c76-8456-86fed7ba9ad8)
+![Оплата](https://github.com/user-attachments/assets/20b59c1e-d5d9-42b6-8299-810857a66228)
 
 
 
