@@ -48,7 +48,7 @@ URL страницы: /purchase-ticket
 
   "Payment method":{
     "SBP": {
-        "included": true,
+        "included": false,
     },
     "SBERPay": {
         "included": false,
@@ -57,7 +57,7 @@ URL страницы: /purchase-ticket
         "included": false,
     },
     "on the issue": {
-        "included": false,
+        "included": true,
     }
   }
 }
